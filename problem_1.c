@@ -8,25 +8,9 @@
 #define lli long long int
 #define max_size 100000
 
-int compare(const void *a, const void *b) {
-    return (*(int*)a - *(int*)b);
-}
-
 int main()
 {
-    int t;
-    scanf("%d",&t);
-
-    while(t--)
-    {
-        int n;
-        scanf("%d",&n);
-        int arr[n];
-        for (int i = 0; i < n; i++) {
-            scanf("%d",&arr[i]);
-        }
-        qsort(arr, n, sizeof(int), compare);
-    }
+    printf("Recently I heard that you've achieved\n95%% marks in your exam.\nThis is brilliant!\nI wish you'll shine in your life!\tGood\nluck with all the barriers(/\\) in your life.");
 
     return 0;
 }
